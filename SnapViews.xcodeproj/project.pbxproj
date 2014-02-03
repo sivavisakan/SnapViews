@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6802F69D189F1DC200BE288B /* SnapLetters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapLetters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6802F69D189F1DC200BE288B /* SnapViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6802F6A0189F1DC200BE288B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6802F6A2189F1DC200BE288B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6802F6A4189F1DC200BE288B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6802F6A8189F1DC200BE288B /* SnapLetters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapLetters-Info.plist"; sourceTree = "<group>"; };
+		6802F6A8189F1DC200BE288B /* SnapViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapViews-Info.plist"; sourceTree = "<group>"; };
 		6802F6AA189F1DC200BE288B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6802F6AC189F1DC200BE288B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6802F6AE189F1DC200BE288B /* SnapLetters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapLetters-Prefix.pch"; sourceTree = "<group>"; };
+		6802F6AE189F1DC200BE288B /* SnapViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapViews-Prefix.pch"; sourceTree = "<group>"; };
 		6802F6AF189F1DC200BE288B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6802F6B0189F1DC200BE288B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6802F6B3189F1DC200BE288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6802F6B5189F1DC200BE288B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6802F6B6189F1DC200BE288B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6802F6B8189F1DC200BE288B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6802F6BE189F1DC200BE288B /* SnapLettersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapLettersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6802F6BE189F1DC200BE288B /* SnapViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6802F6BF189F1DC200BE288B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6802F6C7189F1DC200BE288B /* SnapLettersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapLettersTests-Info.plist"; sourceTree = "<group>"; };
+		6802F6C7189F1DC200BE288B /* SnapViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapViewsTests-Info.plist"; sourceTree = "<group>"; };
 		6802F6C9189F1DC200BE288B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6802F6CB189F1DC200BE288B /* SnapLettersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapLettersTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		6802F69E189F1DC200BE288B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6802F69D189F1DC200BE288B /* SnapLetters.app */,
-				6802F6BE189F1DC200BE288B /* SnapLettersTests.xctest */,
+				6802F69D189F1DC200BE288B /* SnapViews.app */,
+				6802F6BE189F1DC200BE288B /* SnapViewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		6802F6A7189F1DC200BE288B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6802F6A8189F1DC200BE288B /* SnapLetters-Info.plist */,
+				6802F6A8189F1DC200BE288B /* SnapViews-Info.plist */,
 				6802F6A9189F1DC200BE288B /* InfoPlist.strings */,
 				6802F6AC189F1DC200BE288B /* main.m */,
-				6802F6AE189F1DC200BE288B /* SnapLetters-Prefix.pch */,
+				6802F6AE189F1DC200BE288B /* SnapViews-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		6802F6C6189F1DC200BE288B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6802F6C7189F1DC200BE288B /* SnapLettersTests-Info.plist */,
+				6802F6C7189F1DC200BE288B /* SnapViewsTests-Info.plist */,
 				6802F6C8189F1DC200BE288B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6802F69C189F1DC200BE288B /* SnapLetters */ = {
+		6802F69C189F1DC200BE288B /* SnapViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6802F6CF189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapLetters" */;
+			buildConfigurationList = 6802F6CF189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapViews" */;
 			buildPhases = (
 				6802F699189F1DC200BE288B /* Sources */,
 				6802F69A189F1DC200BE288B /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = SnapLetters;
+			name = SnapViews;
 			productName = SnapLetters;
-			productReference = 6802F69D189F1DC200BE288B /* SnapLetters.app */;
+			productReference = 6802F69D189F1DC200BE288B /* SnapViews.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6802F6BD189F1DC200BE288B /* SnapLettersTests */ = {
+		6802F6BD189F1DC200BE288B /* SnapViewsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6802F6D2189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapLettersTests" */;
+			buildConfigurationList = 6802F6D2189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapViewsTests" */;
 			buildPhases = (
 				6802F6BA189F1DC200BE288B /* Sources */,
 				6802F6BB189F1DC200BE288B /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				6802F6C4189F1DC200BE288B /* PBXTargetDependency */,
 			);
-			name = SnapLettersTests;
+			name = SnapViewsTests;
 			productName = SnapLettersTests;
-			productReference = 6802F6BE189F1DC200BE288B /* SnapLettersTests.xctest */;
+			productReference = 6802F6BE189F1DC200BE288B /* SnapViewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6802F698189F1DC200BE288B /* Build configuration list for PBXProject "SnapLetters" */;
+			buildConfigurationList = 6802F698189F1DC200BE288B /* Build configuration list for PBXProject "SnapViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6802F69C189F1DC200BE288B /* SnapLetters */,
-				6802F6BD189F1DC200BE288B /* SnapLettersTests */,
+				6802F69C189F1DC200BE288B /* SnapViews */,
+				6802F6BD189F1DC200BE288B /* SnapViewsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		6802F6C4189F1DC200BE288B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6802F69C189F1DC200BE288B /* SnapLetters */;
+			target = 6802F69C189F1DC200BE288B /* SnapViews */;
 			targetProxy = 6802F6C3189F1DC200BE288B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +379,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SnapLetters/SnapLetters-Prefix.pch";
-				INFOPLIST_FILE = "SnapLetters/SnapLetters-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SnapLetters/SnapViews-Prefix.pch";
+				INFOPLIST_FILE = "SnapLetters/SnapViews-Info.plist";
+				PRODUCT_NAME = SnapViews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +392,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SnapLetters/SnapLetters-Prefix.pch";
-				INFOPLIST_FILE = "SnapLetters/SnapLetters-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SnapLetters/SnapViews-Prefix.pch";
+				INFOPLIST_FILE = "SnapLetters/SnapViews-Info.plist";
+				PRODUCT_NAME = SnapViews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +415,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SnapLettersTests/SnapLettersTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SnapLettersTests/SnapViewsTests-Info.plist";
+				PRODUCT_NAME = SnapViewsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +434,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnapLetters/SnapLetters-Prefix.pch";
-				INFOPLIST_FILE = "SnapLettersTests/SnapLettersTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SnapLettersTests/SnapViewsTests-Info.plist";
+				PRODUCT_NAME = SnapViewsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6802F698189F1DC200BE288B /* Build configuration list for PBXProject "SnapLetters" */ = {
+		6802F698189F1DC200BE288B /* Build configuration list for PBXProject "SnapViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6802F6CD189F1DC200BE288B /* Debug */,
@@ -453,21 +453,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6802F6CF189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapLetters" */ = {
+		6802F6CF189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6802F6D0189F1DC200BE288B /* Debug */,
 				6802F6D1189F1DC200BE288B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6802F6D2189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapLettersTests" */ = {
+		6802F6D2189F1DC200BE288B /* Build configuration list for PBXNativeTarget "SnapViewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6802F6D3189F1DC200BE288B /* Debug */,
 				6802F6D4189F1DC200BE288B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
